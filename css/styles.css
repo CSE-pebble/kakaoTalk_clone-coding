@@ -58,7 +58,8 @@ body {
   transition: background-color 0.3s ease-in-out;
 }
 
-#login-form input[type="submit"]:hover {
+#login-form input[type="submit"]:hover,
+#login-form input[type="submit"]:focus {
   background-color: rgba(55, 25, 97, 0.5);
 }
 
