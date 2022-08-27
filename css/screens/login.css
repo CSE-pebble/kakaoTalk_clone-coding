@@ -43,7 +43,7 @@
 }
 
 #login-form input[type="submit"] {
-  background-color: rgba(218, 204, 237, 0.5);
+  background-color: var(--purple);
   margin-bottom: 15px;
   cursor: pointer;
   border-radius: 15px;
