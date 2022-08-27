@@ -35,11 +35,11 @@ body {
 
 #login-form input:nth-child(-n + 2) {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
-  transition: border-bottom 0.4s ease-in-out;
+  transition: border-bottom 0.4s ease-in;
 }
 
-#login-form input:focus {
-  border-bottom: 1.5px solid rgb(181, 145, 231);
+#login-form input:focus:nth-child(-n + 2) {
+  border-bottom: 2px solid rgb(181, 145, 231);
 }
 
 #login-form input:nth-child(2) {
@@ -55,6 +55,11 @@ body {
   margin-bottom: 15px;
   cursor: pointer;
   border-radius: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: rgba(55, 25, 97, 0.5);
 }
 
 #login-form a {
