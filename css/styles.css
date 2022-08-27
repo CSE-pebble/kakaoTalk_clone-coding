@@ -35,7 +35,7 @@ body {
 
 #login-form input:nth-child(-n + 2) {
   border-bottom: 1.5px solid rgba(0, 0, 0, 0.2);
-  transition: border-bottom 0.4s ease-in;
+  transition: border-bottom 0.3s ease-in;
 }
 
 #login-form input:focus:nth-child(-n + 2) {
