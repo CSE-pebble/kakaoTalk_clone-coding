@@ -1,12 +1,13 @@
 .friends-screen {
+  position: relative;
+  top: 150px;
   padding: 0px var(--horizontal-space);
 }
 
 .user-component {
-  position: relative;
-  top: 150px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .user-component__column:first-child {
@@ -28,6 +29,14 @@
   margin-right: 23px;
 }
 
+.user-component__avatar--sm {
+  width: 65px;
+  height: 65px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 38%;
+  margin-right: 23px;
+}
+
 .user-component__text {
   display: flex;
   flex-direction: column;
@@ -35,10 +44,38 @@
 
 .user-component__name {
   font-size: 22px;
+  font-weight: bold;
+}
+
+.user-component__name--not-bold {
+  font-weight: 400;
 }
 
 .user-component__preview {
   margin-top: 5px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 18px;
+}
+
+.friends-screen__friends-header {
+  margin-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0px;
+}
+
+.user-component__music {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px;
+  border-radius: 20px;
+  border: 3px solid var(--purple);
+  background-color: rgba(245, 245, 245, 0.63);
+}
+
+.user-component__music span {
+  margin-right: 7px;
 }
