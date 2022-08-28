@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Friends</title>
+    <title>Find</title>
   </head>
   <body>
     <div class="status-bar">
@@ -24,54 +24,38 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">친구</h1>
+      <h1 class="screen-header__title">검색</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-        <span><i class="fa-solid fa-music fa-lg"></i></span>
-        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <span class="screen-header__icons--dots">
+          <span class="dots"></span>
+          <i class="fa-solid fa-gear fa-lg"></i>
+        </span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>
-      <span>친구 이름 보이기</span>
-      <i class="fa-solid fa-angle-right fa-xs"></i>
-    </a>
-
-    <main class="main-screen friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img src="image/profile.jpg" class="user-component__avatar--xl" />
-          <div class="user-component__text">
-            <h4 class="user-component__name">Pebble</h4>
-            <h6 class="user-component__preview">뮤예요</h6>
-          </div>
+    <main class="main-screen find-screen">
+      <div class="find-icons">
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR 코드</span>
         </div>
-        <div class="user-component__column"></div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>연락처로 추가하기</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-solid fa-fingerprint"></i>
+          <span>ID로 추가하기</span>
+        </div>
+        <div class="find-icons__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>초대하기</span>
+        </div>
       </div>
-      <div class="friends-screen__friends">
-        <div class="friends-screen__friends-header">
-          <span>친구</span>
-          <i class="fa-solid fa-angle-up fa-xs"></i>
-        </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img src="image/줘니.jpg" class="user-component__avatar--sm" />
-            <div class="user-component__text">
-              <h4 class="user-component__name--not-bold">줘니❤</h4>
-              <h6 class="user-component__preview">항상 좋은 말만 하기로</h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <a
-              class="friends-screen__music"
-              href="https://www.youtube.com/watch?v=q3dyIrAHWPw"
-            >
-              <span>Love Speed - 오마이걸X유재환</span>
-              <i class="fa-solid fa-play"></i>
-            </a>
-          </div>
-        </div>
+      <div class="recommended-friends">
+        <h6>추천친구</h6>
+        <span>추천친구가 없습니다.</span>
       </div>
     </main>
 
@@ -79,7 +63,7 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i></i
           ></a>
         </li>
         <li class="nav__btn">

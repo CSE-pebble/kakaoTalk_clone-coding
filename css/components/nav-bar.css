@@ -21,14 +21,3 @@
   left: 23px;
   bottom: 13px;
 }
-
-.nav__new {
-  background-color: rgb(149, 148, 148);
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  display: block;
-  position: absolute;
-  left: 33px;
-  bottom: 23px;
-}

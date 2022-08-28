@@ -1,3 +1,7 @@
+.friends-screen {
+  top: 150px;
+}
+
 #friends-display-link {
   position: relative;
   top: 130px;
@@ -8,10 +12,37 @@
 }
 
 #friends-display-link span {
-  color: rgba(0, 0, 0, 0.6);
+  color: var(--subtitle-color);
   padding: 0px 3px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.friends-screen__music {
+  width: 250px;
+  height: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 0px;
+  border-radius: 20px;
+  border: 3px solid var(--purple);
+  background-color: rgba(245, 245, 245, 0.63);
+}
+
+.friends-screen__music span {
+  margin-right: 7px;
+}
+
+.friends-screen__friends-header {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding: 20px 0px;
+  color: var(--subtitle-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

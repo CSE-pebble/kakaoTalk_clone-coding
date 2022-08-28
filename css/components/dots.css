@@ -1,0 +1,9 @@
+.dots {
+  background-color: rgb(149, 148, 148);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: 120%;
+  bottom: 140%;
+}
