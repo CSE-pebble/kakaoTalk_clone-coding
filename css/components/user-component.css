@@ -1,0 +1,44 @@
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.user-component {
+  position: relative;
+  top: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.user-component__avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 38%;
+  margin-right: 23px;
+}
+
+.user-component__avatar--xl {
+  width: 75px;
+  height: 75px;
+  border-radius: 38%;
+  margin-right: 23px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component__name {
+  font-size: 22px;
+}
+
+.user-component__preview {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+}
