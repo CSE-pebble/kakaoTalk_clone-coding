@@ -8,7 +8,8 @@
   position: absolute;
   top: 110px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 #alt-header__icons-menu {
@@ -35,4 +36,60 @@
   background-color: rgb(122, 65, 160, 0.4);
   padding: 8px 15px;
   border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.message-row {
+  padding-top: 17px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.message-row-same {
+  width: 100%;
+  display: flex;
+  position: relative;
+  height: 40px;
+}
+
+.message-row__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  left: 62px;
+  top: 30px;
+}
+
+.message-row img,
+#no-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.message__sender {
+  color: var(--subtitle-color);
+  margin-bottom: 10px;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: rgb(224, 179, 230);
+  padding: 8px 10px;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  margin-right: 7px;
+}
+
+.message__time {
+  color: var(--subtitle-color);
+  font-size: 12px;
 }
