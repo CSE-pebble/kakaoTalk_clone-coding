@@ -7,6 +7,8 @@
   align-items: center;
   padding: var(--horizontal-space);
   box-sizing: border-box;
+  z-index: 1;
+  background-color: white;
 }
 
 .screen-header__title {
