@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
-    <title>Find</title>
+    <title>검색</title>
   </head>
   <body>
     <div class="status-bar">
@@ -35,20 +35,20 @@
     </header>
 
     <main class="main-screen find-screen">
-      <div class="find-icons">
-        <div class="find-icons__icon">
+      <div class="icon-row">
+        <div class="icon-row__icon">
           <i class="fa-solid fa-qrcode"></i>
           <span>QR 코드</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-regular fa-address-book"></i>
           <span>연락처로 추가하기</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-solid fa-fingerprint"></i>
           <span>ID로 추가하기</span>
         </div>
-        <div class="find-icons__icon">
+        <div class="icon-row__icon">
           <i class="fa-regular fa-envelope"></i>
           <span>초대하기</span>
         </div>
@@ -56,6 +56,56 @@
       <div class="recommended-friends">
         <h6>추천친구</h6>
         <span>추천친구가 없습니다.</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4 class="open-chat__title">오픈채팅방</h4>
+          <span>오픈채팅방 홈으로 가기
+            <i class="fa-solid fa-angle-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">안고독한 밍기뉴방</h5>
+            <h6 class="open-post__hashtags">#밍기뉴 #말랭이 #사랑해 #❤</h6>
+            <div class="open-post__members">
+              <img src="image/밍기뉴.jpg"/>
+              <span class="open-post__members-count">28,109명</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">방금 대화</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="image/오픈챗기뉴.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>1,013</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">신지훈 팬톡방</h5>
+            <h6 class="open-post__hashtags">#신지훈 #쭌 #K팝스타 #사랑해</h6>
+            <div class="open-post__members">
+              <img src="image/신지훈.jpg"/>
+              <span class="open-post__members-count">8,109명</span>
+              <div class="divider"></div>
+              <span class="open-post__members-status">1분 전</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="image/오픈챗신지훈.jpg" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart fa-xs"></i>
+                <span>623</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
 
