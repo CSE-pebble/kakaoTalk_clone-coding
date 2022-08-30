@@ -11,11 +11,14 @@
 
 @keyframes move {
   0% {
+    color: black;
   }
   50% {
     transform: scale(1.1);
+    color: var(--purple);
   }
   100% {
+    color: black;
   }
 }
 
@@ -65,5 +68,6 @@
 }
 
 .fa-right-from-bracket {
+  will-change: transform;
   animation: move 1s linear infinite;
 }
