@@ -9,6 +9,16 @@
   }
 }
 
+@keyframes move {
+  0% {
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+  }
+}
+
 #logout-check {
   z-index: 90;
   position: absolute;
@@ -52,4 +62,8 @@
 
 #logout-check__button button:first-child {
   margin-right: 10px;
+}
+
+.fa-right-from-bracket {
+  animation: move 1s linear infinite;
 }
