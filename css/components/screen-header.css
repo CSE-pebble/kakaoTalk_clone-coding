@@ -37,6 +37,21 @@
   }
 }
 
+@keyframes jump {
+  0% {
+    tranform: none;
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: none;
+  }
+}
 .screen-header .fa-gear:hover {
   animation: rotateGear 2s linear infinite;
+}
+
+.screen-header .fa-music:hover {
+  animation: jump 0.7s linear infinite;
 }
