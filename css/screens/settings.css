@@ -13,10 +13,11 @@
 
 .settings__setting:last-child {
   border-bottom: none;
+  margin-bottom: 100px;
 }
 
-.settings__setting:last-child {
-  margin-bottom: 100px;
+.settings__setting:last-child:focus {
+  animation: hideSplashScreen 0.5s ease-in-out forwards;
 }
 
 .settings__setting-column:nth-child(2) {

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>설정</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:46</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <main>
+      <div id="logout-check">
+        <div id="logout-check__popUp">
+          <span>로그아웃을 하시겠습니까?</span>
+          <div id="logout-check__button">
+            <button onclick="location.href = 'index.html' ">예</button>
+            <button onclick="location.href = 'settings.html' ">아니오</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://kit.fontawesome.com/4b4ec581a6.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

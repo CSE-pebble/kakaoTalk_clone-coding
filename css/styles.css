@@ -13,6 +13,7 @@
 @import "components/dots.css";
 @import "components/icon.row.css";
 @import "components/alt-screen-header.css";
+@import "components/logout-check.css";
 
 /* Screens */
 @import "screens/login.css";

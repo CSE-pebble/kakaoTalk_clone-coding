@@ -1,0 +1,55 @@
+@keyframes showLogoutCheck {
+  from {
+    visibility: hidden;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+}
+
+#logout-check {
+  z-index: 90;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: showLogoutCheck 1s ease-out forwards;
+}
+
+#logout-check__popUp {
+  height: 180px;
+  width: 350px;
+  background-color: var(--purple);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: rgba(212, 183, 249, 0.489) 0px 7px 29px 0px;
+  font-size: 20px;
+}
+
+#logout-check span {
+  margin-bottom: 30px;
+}
+
+#logout-check__button button {
+  font-family: "Jua", sans-serif;
+  height: 45px;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 17px;
+  background-color: rgb(246, 242, 242);
+  border: 2px solid rgba(0, 0, 0, 0.2);
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#logout-check__button button:first-child {
+  margin-right: 10px;
+}
