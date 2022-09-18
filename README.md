@@ -5,4 +5,4 @@
 클론코딩을 통해 HTML & CSS를 연습하자!
 
 # 완성작 배포 링크
-https://cse-pebble.github.io/kokoa-clone/
+https://cse-pebble.github.io/kakaoTalk_clone-coding/
